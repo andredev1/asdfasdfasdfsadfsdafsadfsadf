@@ -13636,11 +13636,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\Documents\\chocWeb\\RazorPagesDemo-master\\RazorPagesDemo\\RazorPagesDemo.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\Documents\\asdfasdfasdfsadfsdafsadfsadf\\RazorPagesDemo-master\\RazorPagesDemo\\RazorPagesDemo.csproj",
       "projectName": "RazorPagesDemo",
-      "projectPath": "C:\\Users\\andre\\Documents\\chocWeb\\RazorPagesDemo-master\\RazorPagesDemo\\RazorPagesDemo.csproj",
+      "projectPath": "C:\\Users\\andre\\Documents\\asdfasdfasdfsadfsdafsadfsadf\\RazorPagesDemo-master\\RazorPagesDemo\\RazorPagesDemo.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\Documents\\chocWeb\\RazorPagesDemo-master\\RazorPagesDemo\\obj\\",
+      "outputPath": "C:\\Users\\andre\\Documents\\asdfasdfasdfsadfsdafsadfsadf\\RazorPagesDemo-master\\RazorPagesDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
