@@ -1,0 +1,11 @@
+C:\Users\andre\Documents\chocWeb\RazorPagesDemo-master\RazorPagesDemo
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=RazorPagesDemo
+--content-root=C:\Users\andre\Documents\chocWeb\RazorPagesDemo-master\RazorPagesDemo
+--file=C:\Users\andre\Documents\chocWeb\RazorPagesDemo-master\RazorPagesDemo\Pages\BMICalculator.cshtml
+--file=C:\Users\andre\Documents\chocWeb\RazorPagesDemo-master\RazorPagesDemo\Pages\Index.cshtml
+--file=C:\Users\andre\Documents\chocWeb\RazorPagesDemo-master\RazorPagesDemo\Pages\NiceBMICalculator.cshtml
+--file=C:\Users\andre\Documents\chocWeb\RazorPagesDemo-master\RazorPagesDemo\Pages\_Layout.cshtml
+--file=C:\Users\andre\Documents\chocWeb\RazorPagesDemo-master\RazorPagesDemo\Pages\_ValidationScriptsPartial.cshtml
+--file=C:\Users\andre\Documents\chocWeb\RazorPagesDemo-master\RazorPagesDemo\Pages\_ViewImports.cshtml
+--file=C:\Users\andre\Documents\chocWeb\RazorPagesDemo-master\RazorPagesDemo\Pages\_ViewStart.cshtml
