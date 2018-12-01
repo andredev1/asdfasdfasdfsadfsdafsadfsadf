@@ -44,7 +44,11 @@ namespace RazorPagesDemo
                 routes.MapRoute(
                     name: "default",
                     template: "{controller}/{action=Index}/{id?}");
+
             });
+
+
         }
+
     }
 }

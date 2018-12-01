@@ -16,8 +16,8 @@ C:\Users\andre\Documents\asdfasdfasdfsadfsdafsadfsadf\RazorPagesDemo-master\Razo
 C:\Users\andre\Documents\asdfasdfasdfsadfsdafsadfsadf\RazorPagesDemo-master\RazorPagesDemo\bin\Debug\netcoreapp2.0\RazorPagesDemo.pdb
 C:\Users\andre\Documents\asdfasdfasdfsadfsdafsadfsadf\RazorPagesDemo-master\RazorPagesDemo\obj\Debug\netcoreapp2.0\RazorPagesDemo.csprojAssemblyReference.cache
 C:\Users\andre\Documents\asdfasdfasdfsadfsdafsadfsadf\RazorPagesDemo-master\RazorPagesDemo\obj\Debug\netcoreapp2.0\RazorPagesDemo.csproj.CoreCompileInputs.cache
-C:\Users\andre\Documents\asdfasdfasdfsadfsdafsadfsadf\RazorPagesDemo-master\RazorPagesDemo\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
 C:\Users\andre\Documents\asdfasdfasdfsadfsdafsadfsadf\RazorPagesDemo-master\RazorPagesDemo\obj\Debug\netcoreapp2.0\RazorPagesDemo.AssemblyInfoInputs.cache
 C:\Users\andre\Documents\asdfasdfasdfsadfsdafsadfsadf\RazorPagesDemo-master\RazorPagesDemo\obj\Debug\netcoreapp2.0\RazorPagesDemo.AssemblyInfo.cs
 C:\Users\andre\Documents\asdfasdfasdfsadfsdafsadfsadf\RazorPagesDemo-master\RazorPagesDemo\obj\Debug\netcoreapp2.0\RazorPagesDemo.dll
 C:\Users\andre\Documents\asdfasdfasdfsadfsdafsadfsadf\RazorPagesDemo-master\RazorPagesDemo\obj\Debug\netcoreapp2.0\RazorPagesDemo.pdb
+C:\Users\andre\Documents\asdfasdfasdfsadfsdafsadfsadf\RazorPagesDemo-master\RazorPagesDemo\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs

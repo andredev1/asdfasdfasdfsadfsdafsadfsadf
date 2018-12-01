@@ -21,5 +21,6 @@ namespace RazorPagesDemo
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
                 .Build();
+
     }
 }

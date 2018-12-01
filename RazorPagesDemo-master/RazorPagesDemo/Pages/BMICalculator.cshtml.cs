@@ -23,16 +23,16 @@ namespace RazorPagesDemo.Pages
         public void OnGet()
         {
         }
-        public async Task<IActionResult> OnPostAsync()
+        public IActionResult OnPost()
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return Page();
             }
 
             float result = (Weight / (((float)Height / 100) * ((float)Height / 100)));
 
-            if(result < 18.5)
+            if (result < 18.5)
             {
                 ResultInfo = $"Underweight (BMI: {result})! Time to eat a few donuts!";
             }
@@ -44,7 +44,7 @@ namespace RazorPagesDemo.Pages
             {
                 ResultInfo = $"Overweight (BMI: {result})! But have you heard of anybody who died because of a donut?";
             }
-            else 
+            else
             {
                 ResultInfo = $"Obese (BMI: {result})! OK, just one donut, right?";
             }
