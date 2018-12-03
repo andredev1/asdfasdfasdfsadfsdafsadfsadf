@@ -12,50 +12,6 @@
     @functions{
 
 
-        
-        SqlCommand command;
-        string sql;
-        SqlDataReader dataReader;
-
-        string connetionString = "Data Source=tcp:dv-server1234567.database.windows.net;Initial Catalog=DVchoc;Persist Security Info=True;User ID=andredev1234567;Password=Kooler1234567 Timeout=30;";
-           SqlCommand connection = new SqlConnection(connetionString);
-
-        public bool ValidateLecturer(string name, string password)
-        {
-            bool noResultExists = true;
-            sql = " select  *  from Lecturers  where name = '" + name + "' and password = '" + password + "'; ";
-
-            try
-            {
-                connection.Open();
-                command = new SqlCommand(sql, connection);
-                dataReader = command.ExecuteReader();
-                //if anything is returned the student is in the database
-                if (dataReader.Read())
-                {
-                    noResultExists = false;
-                }
-                dataReader.Close();
-                command.Dispose();
-                connection.Close();
-            }
-            catch (Exception NoResuslts)
-            {
-                //fail to log in and no data found are the same thing, result will be the same
-                noResultExists = true;
-                Console.WriteLine("No result");
-                Console.ReadKey();
-            }
-            return noResultExists;
-        }
-
-
-
-
-
-
-        //var db = Database.Open("DVchoc");
-        //var query = "SELECT * FROM Product";
         public string Message { get; set; } = "";
 
         public void OnGet()
@@ -88,28 +44,6 @@
 }
 
 
-<html>
-<body>
-    <h1>Small Bakery Products</h1>
-    <table border="1">
-        <tr>
-            <th>Id</th>
-            <th>Product</th>
-            <th>Description</th>
-            <th>Price</th>
-        </tr>
-        @foreach (var row in db.Query(query))
-        {
-            <tr>
-                <td>@row.Id</td>
-                <td>@row.Name</td>
-                <td>@row.Description</td>
-                <td style="text-align:right">@row.Price</td>
-            </tr>
-        }
-    </table>
-</body>
-</html>
 
 
 
@@ -127,7 +61,7 @@
             document.getElementById("Submit1").value = "Clock In";
         }
 
-        //document.getElementById("Validation1").value = "Time Logged to Database";
+        //document.getElementById("Validation1").value = "clocked in just fine";
         document.getElementById("Validation1").value = "Not a Registered Employee ID";
 
 
